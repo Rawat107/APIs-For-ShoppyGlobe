@@ -14,7 +14,7 @@ This project is a RESTful backend API built with **Node.js**, **Express**, and *
 - Import script to populate products from DummyJSON
 
 ## Folder Structure (MVC)
-
+```
 ├── controllers/
 │ ├── productController.js
 │ ├── cartController.js
@@ -34,7 +34,7 @@ This project is a RESTful backend API built with **Node.js**, **Express**, and *
 │ └── importProduct.js
 ├── .env
 ├── server.js
-
+```
 ---
 
 ## Setup Instructions
