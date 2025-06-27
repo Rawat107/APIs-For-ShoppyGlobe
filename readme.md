@@ -14,7 +14,11 @@ This project is a RESTful backend API built with **Node.js**, **Express**, and *
 - Import script to populate products from DummyJSON
 
 ## Folder Structure (MVC)
+<<<<<<< HEAD
 
+=======
+```
+>>>>>>> c0da69084f2fc251de9eba26abb52150e243d943
 ├── controllers/
 │ ├── productController.js
 │ ├── cartController.js
@@ -34,7 +38,11 @@ This project is a RESTful backend API built with **Node.js**, **Express**, and *
 │ └── importProduct.js
 ├── .env
 ├── server.js
+<<<<<<< HEAD
 
+=======
+```
+>>>>>>> c0da69084f2fc251de9eba26abb52150e243d943
 ---
 
 ## Setup Instructions
@@ -42,7 +50,11 @@ This project is a RESTful backend API built with **Node.js**, **Express**, and *
 ### 1. Clone and Install
 
 ```
+<<<<<<< HEAD
 git clone https://github.com/Rawat107/APIs-For-ShoppyGlobe.git
+=======
+git clone https://github.com/yourusername/shoppyglobe-backend.git
+>>>>>>> c0da69084f2fc251de9eba26abb52150e243d943
 cd shoppyglobe-backend
 npm install
 ```
