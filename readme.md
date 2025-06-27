@@ -42,7 +42,7 @@ This project is a RESTful backend API built with **Node.js**, **Express**, and *
 ### 1. Clone and Install
 
 ```
-git clone https://github.com/yourusername/shoppyglobe-backend.git
+git clone https://github.com/Rawat107/APIs-For-ShoppyGlobe.git
 cd shoppyglobe-backend
 npm install
 ```
