@@ -4,13 +4,13 @@ import mongoose from "mongoose";
 const userSchema = new mongoose.Schema({
   username: {
     type: String,
-    required: true,
+    required: [true, "Username is required"],
     trim: true,
     unique: true
   },
    email: {
     type: String,
-    required: true,
+    required: [true, "Email is required"],
     trim: true,
     unique: true, // prevent duplicate email
     lowercase: true,
@@ -18,7 +18,7 @@ const userSchema = new mongoose.Schema({
   },
   password: {
     type: String,
-    required: true,
+    required: [true, "Password is required"],
     trim: true,
     minlength: 6
   }
